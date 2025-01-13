@@ -47,6 +47,10 @@ body {
     font-size: 30px
 }
 
+#lien{
+    color: white;
+    opacity: 0.33;
+}
 
 p {
     font-weight: bold;
