@@ -1,15 +1,25 @@
 body {
     background-color: black;
     color: white;
-
+    font-family: 'Niramit', sans-serif;
     width: 100%;
     min-height: 100vh;
 
 }
 
-hr {
-    color: black;
+
+#title{
+    font-family: 'Gasoek One', sans-serif;
+
 }
+
+
+hr {
+	height: 1px;
+	border: 0;
+	color: black;
+	background-color: black;
+	}
 
 #logo {
 
@@ -151,6 +161,15 @@ footer {
     margin: 60px;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Place les boutons aux extrémités */
+    align-items: center;            /* Aligne verticalement les boutons */
+    width: 80%;                     /* Donne un peu d'espace de chaque côté */
+    margin: 0 auto;                 /* Centre le conteneur horizontalement */
+    padding: 20px 0;                /* Ajoute un peu de marge verticale */
 }
 
 .gal {
