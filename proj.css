@@ -1,6 +1,9 @@
 body{
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -19,6 +22,9 @@ body{
 }
 
 #gal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     display: block;
     width: 45%; 
