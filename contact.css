@@ -1,0 +1,87 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+
+.mail {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px
+}
+
+#tel {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px
+}
+
+#linke {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px
+}
+
+
+p {
+    font-weight: bold;
+}
+
+#cadre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#icone {
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(247, 238, 220);
+    border-radius: 15px;
+    padding: 20px;
+    width: 50px;
+}
+
+#mail {
+    width: 70px;
+    background-color: rgb(247, 238, 220);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+#cadre {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 80px;
+}
