@@ -165,11 +165,11 @@ footer {
 
 .button-container {
     display: flex;
-    justify-content: space-between; /* Place les boutons aux extrémités */
-    align-items: center;            /* Aligne verticalement les boutons */
-    width: 80%;                     /* Donne un peu d'espace de chaque côté */
-    margin: 0 auto;                 /* Centre le conteneur horizontalement */
-    padding: 20px 0;                /* Ajoute un peu de marge verticale */
+    justify-content: space-between;
+    align-items: center;          
+    width: 80%;                     
+    margin: 0 auto;                 
+    padding: 20px 0;               
 }
 
 .gal {
@@ -183,7 +183,7 @@ footer {
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gasoek one',sans-serif;
     text-align: center;
     font-size: 50px;
 }
