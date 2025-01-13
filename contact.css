@@ -16,7 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 30px
+    font-size: 30px;
+    margin: 10px;
 }
 
 #tel {
@@ -30,7 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 30px
+    font-size: 30px;
+    margin: 10px;
 }
 
 #linke {
@@ -44,7 +46,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 30px
+    font-size: 30px;
+    margin: 10px;
 }
 
 #lien{
