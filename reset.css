@@ -120,12 +120,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 45%;
-    border: 1px solid beige;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
+    
 }
 
 #gal {
