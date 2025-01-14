@@ -12,6 +12,11 @@ body {
 
 }
 
+h1 {
+    font-family: 'Gasoek one', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
 
 hr {
     height: 1px;
@@ -187,11 +192,6 @@ img {
     color: rgb(139, 1, 1);
 }
 
-h1 {
-    font-family: 'Gasoek one', sans-serif;
-    text-align: center;
-    font-size: 50px;
-}
 
 #headDev {
     font-size: 40px;
