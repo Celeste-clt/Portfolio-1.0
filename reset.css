@@ -21,17 +21,6 @@ p {
     font-family: 'Niramit', sans-serif;
 }
 
-footer {
-    background-color: white;
-    color: black;
-    margin-top: 500px;
-    bottom: 20px;
-    padding: 50px;
-    text-align: center;
-    font-size: 30px;
-    width: auto;
-    height: auto;
-}
 
 #return {
     background-color: rgb(247, 238, 220);
@@ -84,19 +73,6 @@ footer {
     margin-top: 10px;
 }
 
-
-#icone, #mail {
-    background-color: rgb(247, 238, 220);
-    border-radius: 15px;
-    padding: 20px;
-}
-
-#icone {
-    position: relative;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 50px;
-}
 
 #mail {
     width: 70px;
