@@ -9,11 +9,7 @@ body{
 
 
 header{
-    background-color: rgb(247, 238, 220);
-  text-align: center;
-  color: black;
-  padding: 5px;
-  font-size: 30px;
+    width: 3800px;
 }
 .container {
     display: flex;
