@@ -55,7 +55,7 @@ p {
 
 
 
-#cvButton, #contactez, #return {
+#cvButton, #contactez {
     background-color: black;
     color: white;
     border-radius: 20px;
@@ -67,7 +67,7 @@ p {
     justify-content: center;
 }
 
-#cvButton:hover, #contactez:hover, #return:hover {
+#cvButton:hover, #contactez:hover {
     background-color: transparent;
     color: black;
     border-radius: 20px;
