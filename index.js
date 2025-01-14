@@ -22,6 +22,17 @@ const projs = [
 ]
 
 
+let suivant=0;
+
+let swip=document.querySelector("#suiv")
+
+const swipButton=document.querySelector("#swip-projets")
+
+swipButton.addEventListener("click", () => {
+    
+    suivant = suivant +1
+      swip.innerHTML=suivant
+  })
 
 
 /* Button carousel */
