@@ -66,8 +66,13 @@ header {
     background-color: rgb(247, 238, 220);
     color: black;
     height: 190px;
-    font-size: 20px;
     padding-top: 10px;
+}
+
+
+#headDev {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 /*------footer------*/
@@ -196,8 +201,3 @@ img {
     color: rgb(139, 1, 1);
 }
 
-
-#headDev {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
