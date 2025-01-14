@@ -6,7 +6,10 @@ body {
     font-family: 'Niramit', sans-serif;
     width: 100%;
     min-height: 100vh;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     
 
@@ -37,10 +40,6 @@ header {
     color: black;
     padding: 5px;
     font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #header {
