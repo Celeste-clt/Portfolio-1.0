@@ -23,7 +23,6 @@ const projs = [
 
 
 
-
 /* Button carousel */
 window.onload = () => {
   const swiper = new Swiper('.swiper', {
