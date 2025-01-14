@@ -26,14 +26,14 @@ const projs = [
 /* Button carousel */
 window.onload = () => {
   const swiper = new Swiper('.swiper', {
-    direction: 'horizontal', // Direction de défilement (horizontal ou vertical)
-    loop: true, // Pour faire une boucle infinie
+    direction: 'horizontal', 
+    loop: true, 
     navigation: {
-      nextEl: '.swiper-button-next', // Bouton suivant
-      prevEl: '.swiper-button-prev', // Bouton précédent
+      nextEl: '.swiper-button-next', 
+      prevEl: '.swiper-button-prev', 
     },
   });
 
-  console.log(swiper);  // Affiche l'instance de Swiper dans la console pour vérifier
+  console.log(swiper);  
 };
 
