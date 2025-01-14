@@ -22,17 +22,3 @@ const projs = [
 ]
 
 
-/*---bouton projets---*/
-let suivant=0;
-
-let swip=document.querySelector("#suiv")
-
-const button=document.querySelector("#swip-projets")
-
-button.addEventListener("click", () => {
-    
-    suivant = suivant +1
-      swip.innerHTML=suivant
-  })
-
-
