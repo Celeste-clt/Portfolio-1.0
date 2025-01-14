@@ -57,7 +57,7 @@ header {
 
 #celIndex{
     font-size: 60px;
-    background-color: yellow;
+    background-color: rgb(247, 238, 220);
 }
 
 #name {
@@ -71,6 +71,7 @@ header {
 
 #heaserDev{
     font-size: 40px;
+    background-color: rgb(247, 238, 220);
 }
 
 
