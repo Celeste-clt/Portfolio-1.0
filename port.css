@@ -56,7 +56,8 @@ header {
 }
 
 #celIndex{
-    font-size: 40px;
+    font-size: 55px;
+    color: yellowgreen;
 }
 
 
@@ -71,7 +72,8 @@ header {
 
 
 #headDev {
-    font-size: 20px;
+    color: yellowgreen;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
