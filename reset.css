@@ -60,6 +60,8 @@ p {
     padding: 10px;
     border-color: transparent;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #cvButton:hover, #contactez:hover, #return:hover {
@@ -67,7 +69,7 @@ p {
     color: black;
     border-radius: 20px;
     padding: 10px;
-    border-color: yellow;
+    border-color: black;
     border-style: groove;
 }
 
