@@ -115,12 +115,17 @@ p {
 }
 
 
-.container{
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    margin: 30px;
 }
 
 #gal {
