@@ -182,3 +182,150 @@ button {
         width: 100%;
     }
 }
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    #container {
+        padding: 30px;
+        font-size: 24px;
+    }
+
+    #cadre {
+        margin: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #gal {
+        width: 100%;
+    }
+
+    .mail, #tel, #linke {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    #galerie {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #container {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cvButton, #contactez {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #cadre {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    #gal {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #img-center {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mail, #tel, #linke {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #return {
+        width: 100px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #container {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    #cvButton, #contactez {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #cadre {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .mail, #tel, #linke {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #galerie {
+        width: 100%;
+    }
+
+    #gal {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    #img-center {
+        width: 100%;
+        margin: 0;
+    }
+
+    #return {
+        width: 100%;
+        font-size: 16px;
+    }
+}
