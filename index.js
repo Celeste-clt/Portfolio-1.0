@@ -28,7 +28,7 @@ let swip=document.querySelector("#suiv")
 
 const button=document.querySelector("#swip-projets")
 
-swip.addEventListener("click", () => {
+button.addEventListener("click", () => {
     
     suivant = suivant +1
       swip.innerHTML=suivant
