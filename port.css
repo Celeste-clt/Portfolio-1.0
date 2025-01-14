@@ -11,10 +11,7 @@ body {
 }
 
 
-#title{
-    font-family: 'Gasoek One', sans-serif;
 
-}
 
 
 hr {
@@ -134,7 +131,7 @@ footer {
     width: 50px;
 }
 
-#mail {
+#mail-icone{
     width: 70px;
     background-color: rgb(247, 238, 220);
     border-radius: 15px;
