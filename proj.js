@@ -21,6 +21,8 @@ const projs = [
     }
 ]
 
+
+/*---bouton projets---*/
 let suivant=0;
 
 let swip=document.querySelector("#suiv")
