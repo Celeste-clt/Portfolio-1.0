@@ -123,3 +123,25 @@ buttonContainer.appendChild(buttonNext);
 
 
 document.body.appendChild(buttonContainer);
+
+
+/* frappe.html*/
+
+
+
+buttonPrev.classList.add('swip-projets');
+
+
+const linkPrev = document.createElement('a');
+linkPrev.classList.add('gal');
+linkPrev.href = 'cache.html';
+linkPrev.textContent = 'Projets précédent';
+
+
+buttonPrev.appendChild(linkPrev);
+
+
+buttonContainer.appendChild(buttonPrev);
+
+
+document.body.appendChild(buttonContainer);
