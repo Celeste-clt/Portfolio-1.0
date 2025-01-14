@@ -35,7 +35,7 @@ button.addEventListener("click", () => {
   })
 
 
-/* Button carousel "fleche"*/
+/* Button carousel */
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
