@@ -204,9 +204,9 @@ img {
 
 
 
-/* ------ Responsive Design ------ */
+/* ------ Responsive Design ------ 
 
-/* Tablettes et grands smartphones */
+
 @media (max-width: 1024px) {
     h1 {
         font-size: 40px;
@@ -361,3 +361,5 @@ img {
         right: 10px;
     }
 }
+
+*/
