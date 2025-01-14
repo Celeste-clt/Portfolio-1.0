@@ -20,10 +20,6 @@ p {
     font-family: 'Niramit', sans-serif;
 }
 
-a:hover {
-    color: rebeccapurple;
-}
-
 footer {
     background-color: white;
     color: black;
@@ -34,6 +30,25 @@ footer {
     font-size: 30px;
     width: auto;
     height: auto;
+}
+
+#return {
+    background-color: rgb(247, 238, 220);
+    color: black;
+    border-style: groove;
+    border-radius: 30px;
+    border-color: transparent;
+    width: 81px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Niramit', sans-serif;
+}
+
+#return:hover {
+    background-color: transparent;
+    border-style: groove;
+    border-radius: 30px;
+    border-color: black;
 }
 
 #container {
@@ -68,24 +83,6 @@ footer {
     margin-top: 10px;
 }
 
-#return {
-    background-color: rgb(247, 238, 220);
-    color: black;
-    border-style: groove;
-    border-radius: 30px;
-    border-color: transparent;
-    width: 81px;
-    text-decoration: none;
-    margin: 10px;
-    font-family: 'Niramit', sans-serif;
-}
-
-#return:hover {
-    background-color: transparent;
-    border-style: groove;
-    border-radius: 30px;
-    border-color: black;
-}
 
 #icone, #mail {
     background-color: rgb(247, 238, 220);
