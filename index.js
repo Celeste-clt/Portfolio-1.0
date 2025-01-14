@@ -95,3 +95,31 @@ buttonContainer.appendChild(buttonNext);
 
 
 document.body.appendChild(buttonContainer);
+
+
+/* page cache.html */
+
+// Créer le lien pour "Projets précédent"
+const linkPrev = document.createElement('a');
+linkPrev.classList.add('gal');
+linkPrev.href = 'quiz.html';
+linkPrev.textContent = 'Projets précédent';
+
+
+buttonPrev.appendChild(linkPrev);
+
+
+const linkNext = document.createElement('a');
+linkNext.classList.add('gal');
+linkNext.href = 'frappe.html';
+linkNext.textContent = 'Projets suivant';
+
+
+buttonNext.appendChild(linkNext);
+
+
+buttonContainer.appendChild(buttonPrev);
+buttonContainer.appendChild(buttonNext);
+
+
+document.body.appendChild(buttonContainer);
