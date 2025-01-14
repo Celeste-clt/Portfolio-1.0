@@ -36,11 +36,6 @@ button.addEventListener("click", () => {
 
 
 
-
-
-
-
-
 /* Button carousel "fleche"*/
 
 

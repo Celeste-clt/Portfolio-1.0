@@ -1,0 +1,68 @@
+ body {
+     background-color: whitesmoke;
+     color: black;
+     
+
+
+ }
+
+ #return {
+     background-color: rgb(247, 238, 220);
+     color: black;
+     border-style: groove;
+     border-radius: 30px;
+     border-color: transparent;
+     width:81px;
+     text-align: center;
+     text-decoration: none;
+     margin: 10px;
+     font-family: 'Niramit', sans-serif;
+ }
+
+ #return:hover{
+    background-color: transparent;
+    border-style: groove;
+    border-radius: 30px;
+    border-color: black;
+ }
+
+ h1 {
+    font-family: 'Gasoek one',sans-serif;
+     text-align: center;
+     font-size: 50px;
+ }
+
+ h2 {
+     text-align: center;
+     font-family: 'Niramit', sans-serif;
+     font-size: small;
+ }
+
+ #container {
+     border-style: groove;
+     border-color: black;
+     border-radius: 10px;
+     border-width: 3px;
+     margin: 30px;
+     font-size: 30px;
+     text-align: center;
+
+ }
+
+
+
+
+
+
+ footer {
+     background-color: white;
+     color: black;
+     margin-top: 500px;
+     bottom: 20px;
+     padding: 50px;
+     text-align: center;
+     font-size: 30px;
+     width: auto;
+     height: auto;
+
+ }
