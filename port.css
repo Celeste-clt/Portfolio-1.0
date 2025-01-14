@@ -207,3 +207,80 @@ img {
 
 
 
+/* Écran mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    header {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #header {
+        margin: 20px;
+        font-size: 24px;
+    }
+
+    #celIndex {
+        font-size: 40px;
+    }
+
+    #name {
+        height: auto;
+        font-size: 16px;
+    }
+
+    #heaserDev {
+        font-size: 30px;
+    }
+}
+
+/* Tablette (min-width: 601px et max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    #header {
+        margin: 30px;
+        font-size: 28px;
+    }
+
+    #celIndex {
+        font-size: 50px;
+    }
+
+    #name {
+        height: auto;
+        font-size: 18px;
+    }
+
+    #heaserDev {
+        font-size: 35px;
+    }
+}
+
+/* Écran large (plus de 1024px) */
+@media (min-width: 1025px) {
+    header {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    #header {
+        margin: 45px;
+        font-size: 30px;
+    }
+
+    #celIndex {
+        font-size: 60px;
+    }
+
+    #name {
+        height: 190px;
+        font-size: 20px;
+    }
+
+    #heaserDev {
+        font-size: 40px;
+    }
+}
