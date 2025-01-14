@@ -36,14 +36,16 @@ button.addEventListener("click", () => {
 
 
 /* Button carousel */
-const swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
+window.onload = () => {
+  const swiper = new Swiper('.swiper', {
+    direction: 'horizontal', // Direction de défilement (horizontal ou vertical)
+    loop: true, // Pour faire une boucle infinie
+    navigation: {
+      nextEl: '.swiper-button-next', // Bouton suivant
+      prevEl: '.swiper-button-prev', // Bouton précédent
+    },
+  });
 
-console.log(swiper);
+  console.log(swiper);  // Affiche l'instance de Swiper dans la console pour vérifier
+};
 
